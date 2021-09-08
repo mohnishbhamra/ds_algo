@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 class myCustomComparator implements Comparator<Integer> {
     public int compare(Integer one, Integer two){
-        return one-two;
+        return -one+two;
     }
 }
 public class ComparatorStudy {

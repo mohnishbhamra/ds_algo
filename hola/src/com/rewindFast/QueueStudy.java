@@ -6,6 +6,7 @@ public class QueueStudy {
         queue.add(1);
         queue.add(3);
         queue.remove();
+        queue.peek();
         System.out.println(queue.peek());
     }
 }

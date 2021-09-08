@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="hola:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/hola_jar</output-path>
+    <root id="archive" name="hola.jar">
+      <element id="module-output" name="hola" />
+    </root>
+  </artifact>
+</component>
