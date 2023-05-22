@@ -3,6 +3,7 @@ import java.util.*;
 public class StackStudy {
     public  static void main(String args[]){
         Stack<Integer> stack = new Stack();
+        //stack.pop(); stack pop when no elements brings execption
         stack.push(2);
         stack.pop();
         stack.push(4);

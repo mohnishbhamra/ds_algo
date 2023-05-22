@@ -40,7 +40,7 @@ public class Recusrion {
 
     static Stack pushAtTheBottom(Stack stack, Object top) {
         if (stack.empty()) {
-            System.out.println("pushing top" + top);
+            System.out.println("pushing top-" + top);
             stack.push(top);
             return stack;
         }
@@ -142,6 +142,16 @@ public class Recusrion {
         Integer temp = (Integer) stack.pop();
         sortedInsertInStack(stack, poppedElement);
         stack.push(temp);
+    }
+
+    public static void main(String[] args){
+        Stack<Integer> stack = new Stack<>();
+        for(int i=5;i>0;i--){
+            stack.push((int)(Math.random()*100));
+        }
+        System.out.println("start"+stack);
+        deleteMiddleOfStack(stack);
+        System.out.println("end"+stack);
     }
 
 }
